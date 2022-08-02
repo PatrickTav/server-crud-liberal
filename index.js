@@ -11,7 +11,7 @@ app.use(express());
 app.use(cors());
 app.use(express.json());
 
-// Conexão co, o banco de dados
+// Conexão com o banco de dados
 const connection = mysql.createPool({
   host: "localhost",
   user: "root",
